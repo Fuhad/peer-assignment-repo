@@ -17,13 +17,13 @@ read response
 
 for number in $response
  do
-  if [[ $number -gt 3 ]] 
+  if  [[ $number -gt 3 ]] 
    then
      echo "Your guess is too high. Try Again!"
   elif [[ $number -lt 3 ]]
    then 
      echo "Your guess is too low. Try Again!"
-  else
+   else
      echo "That's right. Good job!"
 fi
 done
